@@ -1,0 +1,80 @@
+.Page {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-width: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: grey;
+  color: grey;
+}
+
+.X {
+  color: red;
+  font-size: 80px;
+  margin: 0px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.O {
+  color: blue;
+  font-size: 80px;
+  margin: 0px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.filler {
+  color: rgba(255, 255, 255, 0);
+  pointer-events: none;
+}
+
+.scoreBox {
+  margin-left: 15%;
+}
+
+.turnTitle {
+  font-size: 50px;
+}
+
+.board {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.title {
+  font-size: 50px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.scores {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.reset {
+  margin-left: 50px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.reset:hover {
+ background-color: grey;
+ font-weight: bold;
+}
